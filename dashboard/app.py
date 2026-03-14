@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import streamlit as st
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-from main import get_spy_data
+from signals import get_spy_data
 
 st.set_page_config(layout="wide", page_title="S&P 500 Trade Signals")
 st.title("S&P 500 Trade Signal Dashboard")
